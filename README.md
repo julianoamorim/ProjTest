@@ -1,6 +1,12 @@
-# ProjTest
+# Projeto Angular Udemy
+
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.27.
+
+## Uso dos Agentes
+
+A pasta .github deve ser colocada na raiz do Workspace do VSCode para que ele  possa reconhecer os agentes e skills
+
 
 ## Development server
 
