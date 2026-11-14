@@ -1,6 +1,6 @@
 # Projeto Angular Udemy
 
-
+Projeto do curso Angular 19
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.27.
 
 ## Uso dos Agentes

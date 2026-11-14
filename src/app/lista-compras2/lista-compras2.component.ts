@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import {FormsModule} from '@angular/forms'
 import { ItemLista } from './itemlista';
+import { NgClass } from '@angular/common';
 
 @Component({
   selector: 'app-lista-compras2',
-  imports: [FormsModule],
+  imports: [FormsModule, NgClass],
   templateUrl: './lista-compras2.component.html',
   styleUrl: './lista-compras2.component.scss'
 })
@@ -21,5 +22,13 @@ export class ListaCompras2Component {
 
     this.item = '';
     console.table(this.lista);
+  }
+
+  riscarItem(itemlista: ItemLista){
+    itemlista.comprado = !itemlista.comprado;
+  }
+
+  limparLista(){
+    this.lista = [];
   }
 }

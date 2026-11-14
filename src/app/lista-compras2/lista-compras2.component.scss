@@ -41,7 +41,7 @@ input:focus{
     border-color: #0056b3;
 }
 
-button{
+button[type="submit"]{
     padding: 10px 20px;
     border: none;
     border-radius: 6px;
@@ -51,8 +51,18 @@ button{
     transition: 0.3s;
 }
 
-button:hover{
+button[type="submit"]:hover{
     background: #0056b3;
+}
+
+button[type="button"]{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    background: #df5607;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 table{
@@ -75,4 +85,8 @@ th,td{
 input[type="checkedbox"]{
     transform: scale(1.2);
     cursor: pointer;
+}
+
+.item-riscado{
+    text-decoration: line-through;
 }
